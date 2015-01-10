@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<head>
+  <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+  <link href="/normalize.css" rel="stylesheet">
+  <link href="website.css" rel="stylesheet">
+  <title>Samier Trabilsy</title>
+  <style>
+    
+
+  </style>
+</head>
+<body>
+  <header>
+    <div id = "home">
+      <img src="Profile pic 2.jpg" id="circle">
+      <h1>Samier Trabilsy</h1>
+    </div>
+    <nav>
+      <ul>
+	<li><a href="#about">About Me</a></li>
+	<li><a href="#motivation">Motivation</a></li>
+	<li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <article>
+    <div>
+      <a id="about"></a>
+      <h2>About Me</h2>
+      <p>      Hi, my name is Samier Trabilsy and I&rsquo;m currently a
+      Computer Science major at Stony Brook University. Now before
+      you make the assumption that I can usually be found in dimly
+      lit room wearing large glasses staring at hundreds of lines of
+      code (which actually isn&rsquo;t too inaccurate), I should say that I
+      consider myself to be a pretty outgoing guy. I love to joke
+      around with my friends and family and if you get to know me,
+      you&rsquo;ll be quick to find that I don&rsquo;t take a lot of things too
+      seriously. At the same time, I do take my education very
+      seriously and work fairly hard in school not just for good
+      grades, but also for the sake of learning and expanding the
+      boundaries of my knowledge. My hobbies include playing soccer
+      and basketball, playing video games, and generally just hanging
+      out with my friends. I&rsquo;m an avid fan of the New York Knicks,
+      which can be quite challenging and stressful but ultimately
+      proves to be a great way to improve both my patience and
+      determination (the 2016 season can&rsquo;t come any quicker&#8230;).</p>
+    </div>
+    <div>
+      <a id="motivation"></a>
+      <h2>Motivation</h2>
+      <p>
+      I love technology, especially the tech I use in my everyday
+      life: my Android phone, my MacBook, my Xbox 360, etc. However,
+      I realize &quot;technology&quot; is much more than just these consumer
+      electronics. Technology has the power to solve real-world
+      problems and to make significant impacts on the well being of
+      billions of individuals. I believe its bounds are endless&#8208;it can
+      bring clean water to impoverished areas, create renewable,
+      sustainable energy sources that preserve the environment, or
+      even provide adequate education for every child in the world.
+      The infinite potential I see in technology is what motivates me
+      to pursue a career in Computer Science. I find it extremely
+      fascinating that with a strong understanding of programming,
+      sound logic, and a little creativity, one can find a solution to
+      practically anything! I hope to use the knowledge and tools I
+      acquire in this field to create something that improves the
+      world around me. Although I&rsquo;m not quite sure what exact job
+      I would like to be doing 10 years from now, if I can somehow
+      make a positive impact on the lives of the global population,
+      I would feel accomplished knowing I made a difference. 
+      </p>
+    </div>
+  </article>
+  <form id="contact">
+    <a id="contact"></a>
+    <h2>Contact</h2>
+    Feel free to leave me a message below! <br><br>
+    <form method="POST" action="mailto:strabilsy@yahoo.com">
+    <input type="name" name="name" placeholder="Your name">
+    <input type="email" name="email" placeholder="Your email">
+    <textarea name="message" placeholder="Your message"></textarea>
+    <!--<input type="message" placeholder="Your message">-->
+    <input type="submit">
+  </form>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+                $(".contactLink").click(function(){
+                    if ($("#contactForm").is(":hidden")){
+                        $("#contactForm").slideDown("slow");
+                    }
+                    else{
+                        $("#contactForm").slideUp("slow");
+                    }
+                });
+            });
+            function closeForm(){
+                $("#messageSent").show("slow");
+                setTimeout('$("#messageSent").hide();$("#contactForm").slideUp("slow")', 2000);
+           }
+
+$(document).ready(function() {
+  function filterPath(string) {
+    return string
+      .replace(/^\//,'')
+      .replace(/(index|default).[a-zA-Z]{3,4}$/,'')
+      .replace(/\/$/,'');
+  }
+  $('a[href*=#]').each(function() {
+    if ( filterPath(location.pathname) == filterPath(this.pathname)
+    && location.hostname == this.hostname
+    && this.hash.replace(/#/,'') ) {
+      var $targetId = $(this.hash), $targetAnchor = $('[name=' + this.hash.slice(1) +']');
+      var $target = $targetId.length ? $targetId : $targetAnchor.length ? $targetAnchor : false;
+       if ($target) {
+         var targetOffset = $target.offset().top;
+         $(this).click(function() {
+           $('html, body').animate({scrollTop: targetOffset}, 1000);
+           var d = document.createElement("div");
+        d.style.height = "101%";
+        d.style.overflow = "hidden";
+        document.body.appendChild(d);
+        window.scrollTo(0,scrollToM);
+        setTimeout(function() {
+        d.parentNode.removeChild(d);
+            }, 10);
+           return false;
+         });
+      }
+    }
+  });
+});
+/*! Smooth Scroll - v1.4.5 - 2012-07-22
+* Copyright (c) 2012 Karl Swedberg; Licensed MIT, GPL */
+</script>
+</body>
