@@ -1,0 +1,126 @@
+header {
+      background: url("newyorkcitywallpaper.jpg") top right no-repeat;
+      background-position:fixed;
+      background-size: cover;
+      background-position: center;
+      color: white;
+      /*font-family: helvetica;*/
+      background-repeat: no-repeat;
+      text-align: center;
+      margin: 0;
+    }   
+body {
+}
+a {
+      color: white;
+      text-decoration: none;
+}
+#circle {
+      max-width: 300px;
+      max-height: 300px;
+      margin: 40px 0 0 0;
+      border: 5px solid white;
+      border-radius:10px;
+      border-radius:100% 100% 100% 100%;
+      padding: 0px 0 0 0;
+}
+ul{
+      padding: 10px;
+      text-align: center;
+      background: rgba(75, 75, 75, 0.5);
+      font-size: 30px;
+      font-family: 'Raleway', sans-serif;
+}
+li{
+      display: inline;
+      padding: 0px 20px;
+}
+h1 {
+      font-size: 55px;
+      font-family: 'Raleway', sans-serif;
+      color: white;
+      padding: 25px 0px;
+      /*border: 1px solid red;*/
+}
+h2 {
+      font-size: 40px;
+      font-family: 'Raleway', sans-serif;
+      padding: 32px 0 0 0;
+}
+p {
+      font-size: 20px;
+      font-family: 'Raleway', sans-serif;
+      margin: 0 0 90px 0;
+}
+article {
+      max-width: 1000px;
+      margin: 0 auto;
+      line-height: 39px;
+}
+#contact {
+      max-width: 1000px;
+      margin: 0 auto;
+      text-align: center;
+      font-family: 'Raleway', sans-serif;
+      font-size: 20px;
+}
+input {
+      display: block;
+      padding: 10px 100px 10px 10px;
+      margin: 10px auto;
+      font-family: 'Raleway', sans-serif;
+      font-size: 20px;
+}
+textarea {
+      padding: 10px 100px 100px 10px;
+      margin: 10px auto 20px auto;
+      font-family: 'Raleway', sans-serif;
+      font-size: 20px;
+}
+/*input[type="message"] {
+      padding: 10px 100px 100px 10px;
+      margin: 10px auto 20px auto;
+}*/
+input[type="submit"] {
+      padding: 10px 20px;
+      color: white;
+      background: red;
+      font-family: 'Raleway', sans-serif;
+      font-size: 20px;
+      margin: 10px auto 50px auto;
+}
+
+/*@font-face {
+      font-family: Classy;
+      src: url("ylee Mortal Heart, Immortal Memory v.1.01.ttf");
+}
+@font-face {
+      font-family: Hallo sans black;
+      src: url("Hallo sans black.otf");
+}
+@font-face {
+      font-family: Hallo sans;
+      src: url("Hallo sans.otf");
+}
+@font-face {
+      font-family: Hallo sans light;
+      src: url("Hallo sans light.otf");
+}*/
+@media (max-width: 500px) {
+      h1 {
+            font-size: 40px;
+      }
+      li {
+            display: inline;
+            padding: 5px;
+      }
+      ul {
+            font-size: 20px;
+      }
+      h2 {
+            font-size: 30px;
+      }
+      p {
+            font-size: 17px;
+      }
+}
