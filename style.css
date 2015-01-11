@@ -47,6 +47,9 @@ h2 {
       font-family: 'Raleway', sans-serif;
       padding: 32px 0 0 0;
 }
+h2.big {
+      padding: 32px 0 20px 0;
+}
 p {
       font-size: 20px;
       font-family: 'Raleway', sans-serif;
