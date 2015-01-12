@@ -45,15 +45,15 @@ h1 {
 h2 {
       font-size: 40px;
       font-family: 'Raleway', sans-serif;
-      padding: 32px 0 0 0;
+      padding: 32px 0 24px 0;
 }
 h2.big {
-      padding: 32px 0 20px 0;
+      padding: 32px 0 32px 0;
 }
 p {
       font-size: 20px;
       font-family: 'Raleway', sans-serif;
-      margin: 0 0 90px 0;
+      margin: 0 0 105px 0;
 }
 article {
       max-width: 1000px;
@@ -69,14 +69,14 @@ article {
 }
 input {
       display: block;
-      padding: 10px 100px 10px 10px;
-      margin: 10px auto;
+      padding: 10px 10px 10px 10px;
+      margin: 15px auto;
       font-family: 'Raleway', sans-serif;
       font-size: 20px;
 }
 textarea {
-      padding: 10px 100px 100px 10px;
-      margin: 10px auto 20px auto;
+      padding: 10px 10px 10px 10px;
+      margin: 15px auto 20px auto;
       font-family: 'Raleway', sans-serif;
       font-size: 20px;
 }
