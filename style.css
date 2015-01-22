@@ -140,8 +140,10 @@ a.socialIcons:hover {
       }
       h2 {
             font-size: 30px;
+            text-align: center;
       }
       p {
-            font-size: 17px;
+            font-size: 14px;
+            text-indent: 25px;
       }
 }
