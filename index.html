@@ -12,9 +12,9 @@
     </div>
     <nav>
       <ul>
-	<li><a href="#about">About Me</a></li>
-	<li><a href="#motivation">Motivation</a></li>
-	<li><a href="#contact">Contact</a></li>
+	<li><a class="menu" href="#about">About Me</a></li>
+	<li><a class="menu" href="#motivation">Motivation</a></li>
+	<li><a class="menu" href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
@@ -22,18 +22,15 @@
     <div>
       <a id="about"></a>
       <h2>About Me</h2>
-      <p>      Hi, my name is Samier Trabilsy and I&rsquo;m currently a
-      Computer Science major at Stony Brook University. Now before
-      you make the assumption that I can usually be found in dimly
-      lit room wearing large glasses staring at hundreds of lines of
-      code (which actually isn&rsquo;t too inaccurate), I should say that I
-      consider myself to be a pretty outgoing guy. I love to joke
-      around with my friends and family and if you get to know me,
-      you&rsquo;ll be quick to find that I don&rsquo;t take a lot of things too
-      seriously. At the same time, I do take my education very
+      <p>      Hi, my name is Samier Trabilsy. I&rsquo;m a programmer
+      from Queens, NY and I am currently a student studying Computer Science at
+      Stony Brook University. I take my education very
       seriously and work fairly hard in school not just for good
       grades, but also for the sake of learning and expanding the
-      boundaries of my knowledge. My hobbies include playing soccer
+      boundaries of my knowledge. At the same time, I consider myself to be a pretty outgoing guy.
+      I love to joke around with my friends and family and if you get to know me,
+      you&rsquo;ll be quick to find that I don&rsquo;t take a lot of things too
+      seriously. My hobbies include playing soccer
       and basketball, playing video games, and generally just hanging
       out with my friends. I&rsquo;m an avid fan of the New York Knicks,
       which can be quite challenging and stressful but ultimately
@@ -49,7 +46,7 @@
       I realize &quot;technology&quot; is much more than just these consumer
       electronics. Technology has the power to solve real-world
       problems and to make significant impacts on the well being of
-      billions of individuals. I believe its bounds are endless&#8208;it can
+      billions of individuals. I believe its bounds are endless&#8208&#45;it can
       bring clean water to impoverished areas, create renewable,
       sustainable energy sources that preserve the environment, or
       even provide adequate education for every child in the world.
@@ -61,22 +58,35 @@
       acquire in this field to create something that improves the
       world around me. Although I&rsquo;m not quite sure what exact job
       I would like to be doing 10 years from now, if I can somehow
-      make a positive impact on the lives of the global population,
+      make a positive impact on the lives of the people around me,
       I would feel accomplished knowing I made a difference. 
       </p>
     </div>
   </article>
-  <form id="contact">
-    <a id="contact"></a>
-    <h2 class="big">Contact</h2>
-    Feel free to leave me a message below! <br><br>
+  <!--<form id="contact">-->
+    <div id="contact">
+      <a id="contact"></a>
+      <h2 class="big">Contact</h2>
+      <h3>Feel free to leave me a message!</h3>
+      <a class="socialIcons" href="https://www.facebook.com/samier.trabilsy"
+	 title="My Facebook Page" alt="Fb Icon">
+	<img src="img/icons/fb.png" />
+      </a>
+      <a class="socialIcons" href="https://www.linkedin.com/in/samiertrabilsy"
+	 title="My LinkedIn" alt="LinkedIn Icon">
+	<img src="img/icons/linkedin.png" />
+      </a>
+      <a class="socialIcons" href="mailto:strabilsy@yahoo.com">
+	<img src="img/icons/email.png">
+      </a>
+    </div>
+    <!--
     <form method="post" action="mailto:strabilsy@yahoo.com" enctype="text/plain">
     <input type="name" name="name" size="30" placeholder="Your name">
     <input type="email" name="email" size="30" placeholder="Your email">
     <textarea name="message" cols="31" rows="5" maxlength="300" placeholder="Your message"></textarea>
-    <!--<input type="message" placeholder="Your message">-->
-    <input type="submit">
-  </form>
+    <input type="submit">-->
+  <!--</form>-->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
   <script src="js/scrolling.js"></script>
 </body>
