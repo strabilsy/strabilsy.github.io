@@ -110,10 +110,6 @@ a.socialIcons:hover {
       opacity: .8;
       filter: alpha(opacity=80); /* For IE8 and earlier */
 }
-.fb-like {
-      margin: 0 auto;
-      color: red;
-}
 
 /*@font-face {
       font-family: Classy;
