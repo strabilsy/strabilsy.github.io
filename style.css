@@ -48,10 +48,10 @@ h1 {
 h2 {
       font-size: 40px;
       font-family: 'Raleway', sans-serif;
-      padding: 60px 0 30px 0;
+      padding: 60px 0 40px 0;
 }
 h2.big {
-      padding: 32px 0 32px 0;
+      padding: 32px 0 40px 0;
 }
 p {
       font-size: 20px;
@@ -102,13 +102,13 @@ input[type="submit"] {
 }
 a.socialIcons {
       margin: 0 30px;
-      padding: 100px 0 100px 0;
+      padding: 100px 0 200px 0;
       margin-right: 40px; /* Increase the number to increase the space between the icons */
 }
 
 a.socialIcons:hover {
       opacity: .8;
-      filter:alpha(opacity=80); /* For IE8 and earlier */
+      filter: alpha(opacity=80); /* For IE8 and earlier */
 }
 
 /*@font-face {
