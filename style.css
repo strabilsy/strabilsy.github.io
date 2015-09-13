@@ -67,6 +67,8 @@ article {
       max-width: 1000px;
       margin: 0 auto;
       line-height: 39px;
+      /*background-color: red;*/
+      /*z-index:900; width:100%; overflow:hidden; margin:auto;*/
 }
 #contact {
       max-width: 1000px;
